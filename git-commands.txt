@@ -1,0 +1,17 @@
+git for windows installieren
+github account + repository erstellen auf github
+
+git init - repository lokal erstellen
+git status - eh klar
+git add - (neue) dateien tracken
+git commit -m "log message"
+git commit -a -m "log message" - alle änderungen der getrackten files mitspeichern
+git checkout <commit hash> - auf einen alten commit springen
+git checkout master - auf den neuesten commit vom master branch zurückspringen
+
+
+
+Einen commit rückgängig machen:
+git reset --soft HEAD~ - änderungen nur mehr gestaged
+git restore --staged <file> - änderungen unstaged
+git restore <file> - änderungen gelöscht
