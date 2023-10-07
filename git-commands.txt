@@ -9,7 +9,7 @@ git commit -a -m "log message" - alle änderungen der getrackten files mitspeich
 git log - commit log
 git log --stat - commit log mit geänderten files
 
-
+git diff - änderungen seit dem letzten commit anzeigen (nur unstaged änderungen)
 
 
 Auf einen alten commit springen und zurück
