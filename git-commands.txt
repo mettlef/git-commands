@@ -6,10 +6,15 @@ git status - eh klar
 git add - (neue) dateien tracken
 git commit -m "log message"
 git commit -a -m "log message" - alle änderungen der getrackten files mitspeichern
+git log - commit log
+git log --stat - commit log mit geänderten files
+
+
+
+
+Auf einen alten commit springen und zurück
 git checkout <commit hash> - auf einen alten commit springen
 git checkout master - auf den neuesten commit vom master branch zurückspringen
-
-
 
 Einen commit rückgängig machen:
 git reset --soft HEAD~ - änderungen nur mehr gestaged
