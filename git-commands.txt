@@ -6,6 +6,8 @@ git status - eh klar
 git add - (neue) dateien tracken
 git commit -m "log message"
 git commit -a -m "log message" - alle änderungen der getrackten files mitspeichern
+git push - commits auf github raufladen
+git pull - commits von github runterladen
 git log - commit log
 git log --stat - commit log mit geänderten files
 git diff - änderungen seit dem letzten commit anzeigen (nur unstaged änderungen)
